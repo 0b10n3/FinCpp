@@ -23,6 +23,11 @@ int main()
     std::cout << "Double at infinity: " << infinity << std::endl;
     std::cout << "Double not a number: " << notANumber << std::endl;
 
+    // char
+    char letter = '$';
+
+    std::cout << "Letter: " << letter << std::endl;
+
     return 0;
 
 }
