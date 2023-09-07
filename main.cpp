@@ -14,7 +14,14 @@ int main()
 
     std::cout << "Teachers to students ratio: " << ratio << std::endl;
 
-    std::cout << "Hello World!" << std::endl;
+    // special double
+    double infinity = -1.0/0;
+
+    // NaN - Not a Number
+    double notANumber = 0.0/0.0;
+
+    std::cout << "Double at infinity: " << infinity << std::endl;
+    std::cout << "Double not a number: " << notANumber << std::endl;
 
     return 0;
 
